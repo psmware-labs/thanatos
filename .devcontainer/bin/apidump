@@ -1,4 +1,4 @@
 #!/bin/sh
 cd /app/api
 FILE=/app/api/core/fixtures/data.json
-python manage.py dumpdata --all --output $FILE
+python manage.py dumpdata --exclude=auth --exclude=contenttypes --all --output $FILE

@@ -34,10 +34,7 @@
         "files.associations": {
             "**/*.html": "html",
         },
-        "[html]": {
-            "editor.defaultFormatter": "HookyQR.beautify"
-        },
-        "yaml.format.singleQuote": true,
+         "yaml.format.singleQuote": true,
         // Python Linting settings
         "python.linting.enabled": true,
         "python.linting.lintOnSave": true,
@@ -46,7 +43,7 @@
         "python.languageServer": "Pylance",
         "python.showStartPage": false,
         // Python Docstring settings
-        "autoDocstring.docstringFormat": "sphinx",
+        "autoDocstring.docstringFormat": "google",
         "autoDocstring.generateDocstringOnEnter": true,
         "autoDocstring.quoteStyle": "'''"
     },

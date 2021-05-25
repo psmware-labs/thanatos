@@ -5,15 +5,26 @@ theme:
 
 plugins:
   - search
-  - mkdocstrings
   - git-committers
   - git-revision-date-localized
+  - mermaid2
+  - autorefs
+
+  - mkdocstrings:
+      handlers:
+        python:
+          setup_commands:
+            - import os
+            - import django
+            - os.environ.setdefault("DJANGO_SETTINGS_MODULE", "main.settings")
+            - django.setup()
+
   - minify:
       minify_html: true
       minify_js: false
       htmlmin_opts:
           remove_comments: true
-  - mermaid2
+
   - with-pdf:
       author: Pat McLean
       copyright: psmware ltd
@@ -23,6 +34,9 @@ plugins:
 markdown_extensions:
   - attr_list
   - admonition
+  # - pymdownx.superfences
+  # - pymdownx.tabbed
+  # - pymdownx.tasklist
 
 nav:
   - Home: index.md
@@ -30,4 +44,7 @@ nav:
       - Contributing: contributing.md
       - Getting started: contributing/getting-started.md
       - Using the Repository: contributing/using-the-repo.md
+  - Developer:
+      - Models: code/core-models.md
+      - Admin: code/core-admin.md
 

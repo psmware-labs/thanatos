@@ -1,0 +1,687 @@
+[
+    {
+        "model": "core.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$RZlLZBQdrd89VqK1s1SfKn$FVwgU/TlDMf2wWdMQWzg2ueoRoZe2t6MaXU+hPiLkEw=",
+            "last_login": null,
+            "is_superuser": true,
+            "email": "admin@psm.dev",
+            "name": "",
+            "is_active": true,
+            "is_staff": true,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "core.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$9kiK8g9o1DODaWvhiqEYbr$YR+xLQxxvEKcfiRMh4UOe65MT3rYpdO3yagpAmvoJvk=",
+            "last_login": null,
+            "is_superuser": true,
+            "email": "admin@sap.dev",
+            "name": "",
+            "is_active": true,
+            "is_staff": true,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "core.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$xuFky1dYFPDh5RjzDzcRO8$MrV0sn96EXix6WLvemdlaRwzMlfSSoYXg3JOals6lwU=",
+            "last_login": null,
+            "is_superuser": true,
+            "email": "admin@vso.dev",
+            "name": "",
+            "is_active": true,
+            "is_staff": true,
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "core.account",
+        "pk": 1,
+        "fields": {
+            "name": "American Fidelity",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.account",
+        "pk": 2,
+        "fields": {
+            "name": "Atos",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.account",
+        "pk": 3,
+        "fields": {
+            "name": "BNSIC",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.account",
+        "pk": 4,
+        "fields": {
+            "name": "Blackwatch",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.account",
+        "pk": 5,
+        "fields": {
+            "name": "Bridgepointe ",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.account",
+        "pk": 6,
+        "fields": {
+            "name": "Coquina",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.account",
+        "pk": 7,
+        "fields": {
+            "name": "Criterion",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.account",
+        "pk": 8,
+        "fields": {
+            "name": "DMI",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.account",
+        "pk": 9,
+        "fields": {
+            "name": "IBM",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.account",
+        "pk": 10,
+        "fields": {
+            "name": "Kaiser Permanente",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.account",
+        "pk": 11,
+        "fields": {
+            "name": "SAP ",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.account",
+        "pk": 12,
+        "fields": {
+            "name": "VION",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.primarymetric",
+        "pk": 1,
+        "fields": {
+            "metric": "Architectural Stability",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.primarymetric",
+        "pk": 2,
+        "fields": {
+            "metric": "SOPs and Runbooks",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.primarymetric",
+        "pk": 3,
+        "fields": {
+            "metric": "Security/Compliance",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.primarymetric",
+        "pk": 4,
+        "fields": {
+            "metric": "Service Management",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.primarymetric",
+        "pk": 5,
+        "fields": {
+            "metric": "Tooling",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 1,
+        "fields": {
+            "metric": "Access Control Standards applied",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 2,
+        "fields": {
+            "metric": "Adherance to Standards",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 3,
+        "fields": {
+            "metric": "Architectural Documentation",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 4,
+        "fields": {
+            "metric": "BUR administration (policies, monitoring, restores)",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 5,
+        "fields": {
+            "metric": "Change Process",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 6,
+        "fields": {
+            "metric": "Conformance to Industry Standards",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 7,
+        "fields": {
+            "metric": "Credentialling and Onboarding",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 8,
+        "fields": {
+            "metric": "DR Failover Testing processes & procedures",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 9,
+        "fields": {
+            "metric": "Documentation is Complete & Kept up to date",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 10,
+        "fields": {
+            "metric": "Environmental Resiliency",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 11,
+        "fields": {
+            "metric": "HIPAA, ITAR, etc Process Training Complete for All Staff",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 12,
+        "fields": {
+            "metric": "IncIdent & Problem Management Supportability",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 13,
+        "fields": {
+            "metric": "Monitoring & Alerting (automated and properly tuned)",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 14,
+        "fields": {
+            "metric": "Network Security Intrusion Detection (n/a for VSO at R1)",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 15,
+        "fields": {
+            "metric": "Network administration & remediation",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 16,
+        "fields": {
+            "metric": "Reporting (data available thru tools vs manual collection)",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 17,
+        "fields": {
+            "metric": "Ticketing Capability within Tools",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.secondarymetric",
+        "pk": 18,
+        "fields": {
+            "metric": "VMWare infrastructure administration and remediation",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 1,
+        "fields": {
+            "metric": "ARB or Change Board convenes weekly",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 2,
+        "fields": {
+            "metric": "Access Control Standards applied",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 3,
+        "fields": {
+            "metric": "Any HybrId (local to cloud) components",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 4,
+        "fields": {
+            "metric": "Architectural Documentation",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 5,
+        "fields": {
+            "metric": "Automation (All repeated and labor intensive tasks are automated)",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 6,
+        "fields": {
+            "metric": "BUR Success/Miss/Fail, Restores",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 7,
+        "fields": {
+            "metric": "BUR administration (policies, monitoring, restores)",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 8,
+        "fields": {
+            "metric": "Backup & Restore policies set & consistently applied",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 9,
+        "fields": {
+            "metric": "Backup solution with policies & processes",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 10,
+        "fields": {
+            "metric": "Capacity",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 11,
+        "fields": {
+            "metric": "Change and Service Request within Ticketing system",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 12,
+        "fields": {
+            "metric": "Conformance to Industry Standards",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 13,
+        "fields": {
+            "metric": "Consistency of ticket prioritization",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 14,
+        "fields": {
+            "metric": "Consistently Deployed throughout environment",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 15,
+        "fields": {
+            "metric": "Credentialling and Onboarding",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 16,
+        "fields": {
+            "metric": "DR Failover Testing processes & procedures",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 17,
+        "fields": {
+            "metric": "DR Replication",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 18,
+        "fields": {
+            "metric": "DR solution with policies & processes",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 19,
+        "fields": {
+            "metric": "Disaster Recovery functional failover of the defined environment can be executed consistently",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 20,
+        "fields": {
+            "metric": "Dynamic Automation or Auto-Ticketing implemented",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 21,
+        "fields": {
+            "metric": "ESXi and Hypervisors",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 22,
+        "fields": {
+            "metric": "Established & Documented",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 23,
+        "fields": {
+            "metric": "Established & Documented1",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 24,
+        "fields": {
+            "metric": "Followed by Customer & Operations",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 25,
+        "fields": {
+            "metric": "Gold image standards",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 26,
+        "fields": {
+            "metric": "HIPAA, ITAR, etc Process Training Complete for All Staff",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 27,
+        "fields": {
+            "metric": "High Availability/Clusters/Failover",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 28,
+        "fields": {
+            "metric": "IncIdents/Problems populate under the correct severity levels",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 29,
+        "fields": {
+            "metric": "Logical Network",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 30,
+        "fields": {
+            "metric": "Network",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 31,
+        "fields": {
+            "metric": "Network Security Intrusion Detection (n/a for VSO at R1)",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 32,
+        "fields": {
+            "metric": "Network administration & remediation",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 33,
+        "fields": {
+            "metric": "Orchestration (multi-system integration to accomplish complex tasks, ie, DR Failover)",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 34,
+        "fields": {
+            "metric": "Physical Environment",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 35,
+        "fields": {
+            "metric": "Physical Network",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 36,
+        "fields": {
+            "metric": "Portion of tickets that are Automated (100) vs Manual (0)",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 37,
+        "fields": {
+            "metric": "Scalability-Environment can grow without re-architecture of major components",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 38,
+        "fields": {
+            "metric": "Standard Diagnostics Defined",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 39,
+        "fields": {
+            "metric": "Tooling Integration to Service Management System",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 40,
+        "fields": {
+            "metric": "VMWare infrastructure administration and remediation",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 41,
+        "fields": {
+            "metric": "VMs",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 42,
+        "fields": {
+            "metric": "VSAN and Storage",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 43,
+        "fields": {
+            "metric": "Virtual Network",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 44,
+        "fields": {
+            "metric": "Visibility end to end",
+            "user": 1
+        }
+    },
+    {
+        "model": "core.tertiarymetric",
+        "pk": 45,
+        "fields": {
+            "metric": "Written requirements/SLAs for customer KPI",
+            "user": 1
+        }
+    }
+]
